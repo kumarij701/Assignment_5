@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\2064588\\source\\repos\\Assign_5Pro\\Assign_5Pro.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\2064588\\source\\repos\\Assignment_5\\Assignment_5.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2064588\\source\\repos\\Assignment_5\\Assignment_5.csproj",
+        "projectName": "Assignment_5",
+        "projectPath": "C:\\Users\\2064588\\source\\repos\\Assignment_5\\Assignment_5.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\2064588\\source\\repos\\Assign_5Pro\\Assign_5Pro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2064588\\source\\repos\\Assign_5Pro\\Assign_5Pro.csproj",
+        "projectName": "Assign_5Pro",
+        "projectPath": "C:\\Users\\2064588\\source\\repos\\Assign_5Pro\\Assign_5Pro.csproj",
+        "packagesPath": "C:\\Users\\2064588\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2064588\\source\\repos\\Assign_5Pro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2064588\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\2064588\\source\\repos\\Assignment_5\\Assignment_5.csproj": {
+                "projectPath": "C:\\Users\\2064588\\source\\repos\\Assignment_5\\Assignment_5.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

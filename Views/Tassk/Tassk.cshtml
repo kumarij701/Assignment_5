@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Assignment_5.Task>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2>Data present in Task Table</h2>
+<div>  
+    <table id="t01">  
+        <thead>  
+            <th>TaskID</th>  
+            <th>Time</th>  
+            <th>TaskOwner</th>  
+            <th>TaskStatus</th>  
+            <th>StoryDescription</th>  
+        </thead>  
+    @foreach (var task in Model)  
+   {  
+      <tr>
+         <td>@task.TaskId</td>
+         <td>@task.Time</td>
+         <td>@task.TaskOwner</td>
+        <td>@task.TaskStatus</td>
+         <td>@task.StoryDescription</td>
+        </tr>     
+}
+   </table> 
+   </div>
+   <style>  
+table#t01 {  
+width: 100%;  
+background-color: #f1f1c1;  
+}  
+  
+table#t01 tr:nth-child(even) {  
+background-color: #eee;  
+}  
+table#t01 tr:nth-child(odd) {  
+background-color: #fff;  
+}  
+table#t01 th {  
+color: white;  
+background-color:blue;  
+}  
+table, th, td {  
+border: 1px solid black;  
+}  
+table, th, td {  
+border: 1px solid black;  
+border-collapse: collapse;  
+}  
+table, th, td {  
+border: 1px solid black;  
+border-collapse: collapse;  
+}  
+th, td {  
+padding: 15px;  
+}  
+</style>
